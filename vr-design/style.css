@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+header {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+}
+
+div.logo {
+    width: 50vw;
+}
+
+div.menu {
+    width: 50vw;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    font-size: 19px;
+    background-size: cover;
+
+
+}
+
+div.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    
+}
+
+main {
+    width: 100vw;
+    height: 600px;
+    display: flex;
+}
+
+div.esquerda {
+    width: 50vw;
+    height: 600px;
+   background-size: cover;
+}
+
+div img {
+    padding-left: 160px;
+}
+
+div.direita {
+    color: white;
+    width: 50vw;
+    height: 600px;
+    text-align: center;
+    padding-top: 150px;
+    
+    
+}
+
+div h1 {
+    font-size: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    letter-spacing: 0.2rem;
+}
+
+p {
+    padding-right: 80px;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+div.botão {
+    padding-right: 110px;
+    padding-top: 30px;
+}
+
+input {
+    background: none;
+    border: 2px solid rgb(98, 33, 104);
+    border-radius: 17px;
+    padding: 7px 30px;
+    color: white;
+    background-size: cover;
+    font-size: 20px;
+    margin-left: 10px;
+  
+}
