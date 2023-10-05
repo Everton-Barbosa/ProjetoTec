@@ -19,7 +19,9 @@ header {
 }
 
 div.logo {
+    padding-top: 20px;
     width: 50vw;
+    padding-left: 100px;
 }
 
 div.menu {
@@ -42,6 +44,11 @@ div.menu a {
     
 }
 
+div.menu a:hover {
+    font-size: 25px;
+    transition: .3s ease-in-out;
+}
+
 main {
     width: 100vw;
     height: 600px;
@@ -54,7 +61,7 @@ div.esquerda {
    background-size: cover;
 }
 
-div img {
+div.esquerda img {
     padding-left: 160px;
 }
 
@@ -69,21 +76,31 @@ div.direita {
 }
 
 div h1 {
-    font-size: 100px;
+    font-size: 90px;
     padding-right: 100px;
     padding-bottom: 20px;
     letter-spacing: 0.2rem;
+    font-family: 'Dela Gothic One', cursive;
 }
 
 p {
     padding-right: 80px;
     font-size: 13px;
     padding-bottom: 20px;
+    letter-spacing: 0.1rem;
 }
 
 div.botão {
     padding-right: 110px;
     padding-top: 30px;
+}
+
+div.botão input {
+    cursor: pointer;
+}
+
+div.forms label {
+    padding-left: 10px;
 }
 
 input {
@@ -97,3 +114,29 @@ input {
     margin-left: 10px;
   
 }
+
+div.forms {
+    padding: 160px;
+    padding-right: 175px;
+    color: white;
+    font-size: 20px;
+}
+
+.botao2 {
+    margin-left: 95px;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.botao2:hover {
+    background-color: rgb(105, 29, 101);
+    border: 2px solid white;
+}
+
+div.botão input:hover {
+    background-color: rgb(105, 29, 101);
+    border: 2px solid white;
+    transition: .5s ease-in-out;
+}
+
