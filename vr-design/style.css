@@ -55,14 +55,23 @@ main {
     display: flex;
 }
 
+.texto {
+    block-size: 150px;
+    writing-mode: vertical-rl;
+    padding-top: 8rem;
+    color: white;
+    transform: rotateX(180deg) rotateY(180deg);
+    margin-left: 100px;
+    margin-bottom: 100px;
+    font-size: 20px;
+   
+
+}
+
 div.esquerda {
     width: 50vw;
     height: 600px;
    background-size: cover;
-}
-
-div.esquerda img {
-    padding-left: 160px;
 }
 
 div.direita {
